@@ -1,0 +1,10 @@
+{
+    "name": "@tinybrain/state-core",
+    "version": "0.1.0",
+    "main": "src/store.ts",
+    "type": "module",
+    "scripts": {
+      "dev": "tsc -w -p tsconfig.json",
+      "build": "tsc -p tsconfig.json"
+    }
+  }
