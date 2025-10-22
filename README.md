@@ -1,6 +1,7 @@
 # tinybrain-state
 
-> A minimal, intuitive state management library for React applications. Think small, think simple.
+> A minimal and intuitive state management library for React applications ... 
+Think small, think simple.
 
 ## Why tinybrain-state?
 
@@ -49,9 +50,15 @@ Sometimes the best solution is the simplest one. `tinybrain-state` embraces the 
 
 ## Packages
 
+Think "Lego bricks." We're building reusable libraries (not just an app). A monorepo with npm workspaces lets you:
+- Develop multiple packages together (shared code, single git repo)
+- Version/publish independently later if you want (or keep private)
+- Import locally with instant updates (no publishing needed)
+
+`packages/` is where those bricks live.
+
 - **`@tinybrain/state-core`** - Core state management logic
 - **`@tinybrain/react`** - React hooks and bindings
 
 ## AureyaTech 
 
-Development for AureyaTech
